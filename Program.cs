@@ -11,3 +11,4 @@ if (input1 == null && input2 == null)
 Console.WriteLine($"Average: {(input1 + input2)/2}");
 Console.WriteLine($"Sum: {input1 + input2}: ");
 Console.WriteLine($"Subtraction: {input1 - input2}: ");
+Console.WriteLine($"Multiplication: {input1 * input2}: ");
