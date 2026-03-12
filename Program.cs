@@ -15,6 +15,8 @@ Console.WriteLine($"Subtraction: {input1 - input2}: ");
 Console.WriteLine($"Multiplication: {input1 * input2}: ");
 Console.WriteLine(CalculateAverage(numbers));
 Console.WriteLine(CalculateMax(numbers));
+Console.WriteLine();
+Console.WriteLine("Message on branch main");
 
 int CalculateAverage(int[] values)
 {
