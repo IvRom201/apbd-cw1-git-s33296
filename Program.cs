@@ -15,6 +15,9 @@ Console.WriteLine($"Subtraction: {input1 - input2}: ");
 Console.WriteLine($"Multiplication: {input1 * input2}: ");
 Console.WriteLine(CalculateAverage(numbers));
 Console.WriteLine(CalculateMax(numbers));
+Console.WriteLine(CalculateMin(numbers));
+Console.WriteLine();
+Console.WriteLine("Napis w gałędzi feature-conflict");
 
 int CalculateAverage(int[] values)
 {
