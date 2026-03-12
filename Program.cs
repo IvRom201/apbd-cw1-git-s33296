@@ -30,5 +30,8 @@ int CalculateMax(int[] values) {
 
 int CalculateMin(int[] values)
 {
-    return 0;
+    if (values == null || values.Length == 0)
+        throw new ArgumentException("Array cannot be null or empty.");
+    
+    return values.Min();
 }
